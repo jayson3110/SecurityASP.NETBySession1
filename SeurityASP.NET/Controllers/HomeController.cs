@@ -18,15 +18,17 @@ namespace SeurityASP.NET.Controllers
             {
                 int VIPNumber = (int)Session["user"];
                 model = GetData(VIPNumber);
+                return View("IndexLogin", model);
 
-            }else
+            }
+            else
             {
                 model = GetData(0);
+                return View( "Index", model);
             }
 
            
 
-            return View(model);
         }
 
 

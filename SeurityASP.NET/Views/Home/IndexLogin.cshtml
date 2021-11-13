@@ -11,27 +11,27 @@
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
     <style>
-        .item{
-            margin:0 0 15px 0;
+        .item {
+            margin: 0 0 15px 0;
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 10px;
             width: 500px;
-
         }
 
-        .item p h2 {
-            margin: 0 0 5px 0;
-            padding: 0;
-            font-weight: bold;
-            font-size: 15px;
-        }
-
-
+            .item p h2 {
+                margin: 0 0 5px 0;
+                padding: 0;
+                font-weight: bold;
+                font-size: 15px;
+            }
     </style>
 </head>
 <body>
- 
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+
 
     @foreach (var item in Model)
     {
@@ -44,6 +44,12 @@
         </div>
 
     }
+
+
+    <a href="@Url.Action("Logout","Login")" class="btn btn-warning">Logout</a>
+
+
+
 
 
 

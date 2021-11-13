@@ -72,7 +72,7 @@ D:\ASP.NET MVC\SeurityASP.NET\SeurityASP.NET\bin\System.Web.WebPages.Razor.xml
 D:\ASP.NET MVC\SeurityASP.NET\SeurityASP.NET\bin\Newtonsoft.Json.xml
 D:\ASP.NET MVC\SeurityASP.NET\SeurityASP.NET\bin\Antlr3.Runtime.pdb
 D:\ASP.NET MVC\SeurityASP.NET\SeurityASP.NET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\ASP.NET MVC\SeurityASP.NET\SeurityASP.NET\obj\Debug\SeurityASP.NET.csproj.AssemblyReference.cache
 D:\ASP.NET MVC\SeurityASP.NET\SeurityASP.NET\obj\Debug\SeurityASP.NET.csproj.CoreCompileInputs.cache
 D:\ASP.NET MVC\SeurityASP.NET\SeurityASP.NET\obj\Debug\SeurityASP.NET.dll
 D:\ASP.NET MVC\SeurityASP.NET\SeurityASP.NET\obj\Debug\SeurityASP.NET.pdb
+D:\ASP.NET MVC\SeurityASP.NET\SeurityASP.NET\obj\Debug\SeurityASP.NET.csproj.AssemblyReference.cache
