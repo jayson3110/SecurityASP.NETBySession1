@@ -8,7 +8,7 @@
 
 
 <input type="text" id="txUID" placeholder="Username"/><br/>
-<input type="text" id="txPWD" placeholder="Password" /><br/>
+<input type="password" id="txPWD" placeholder="Password" /><br/>
 <div id="btbLogin" onClick="Login()" style="width:80px; text-align:center; background: #666; color:#fff; cursor: pointer" >LOGIN</div>
 <p id="ms" style="color:red"></p>
 
@@ -16,7 +16,7 @@
     var isRunning = false;
 
     function Login() {
-        console.log();
+        console.log("freak");
         if (!isRunning) {
             isRunning = true
 
@@ -26,6 +26,7 @@
             if (uid == '' || password == '') {
                 $('#ms').html('Vui lòng đăng nhập tài khoản và mật khẩu');
                 isRunning = false;
+
                 console.log('without' + uid);
                 console.log('without' + password);
             } else {
@@ -53,10 +54,10 @@
                             ///
                             window.location = '/Home/Index';
                         } else {
-                            $('#ms').html('Vui lòng đăng nhập tài khoản và mật khẩu');
+                            $('#ms').html('Sai tai khoản hoặc mật khẩu');
 
                         }
-                        IsRunning = false;
+                        isRunning = false;
                     }
                 }
                 xhr.send(form);

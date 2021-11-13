@@ -22,7 +22,7 @@ namespace SeurityASP.NET.Controllers
           
             return View();
         }
-
+        [HttpPost]
         public JsonResult  CheckLogin(FormCollection Collection)
         {
             string uid = Collection["uid"];
